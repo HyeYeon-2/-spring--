@@ -1,4 +1,4 @@
-# -spring- 이메일 인증 -
+# -spring- Ajax 이메일 인증 -
 
 ## pom.xml
 
