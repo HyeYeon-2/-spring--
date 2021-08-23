@@ -12,7 +12,14 @@
 ## mail-context.xml 생성
 
 ## web.xml에 mail-context.xml 등록
- -  /WEB-INF/spring/mail-context.xml
+ - 상단에 넣어줌(경로 맞추기)
+	 	<context-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>
+				classpath:root-context.xml
+				/WEB-INF/spring/mail-context.xml		
+			</param-value>
+		</context-param>
 
 ## .jsp에 스크립트 
 
